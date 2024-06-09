@@ -36,12 +36,40 @@ npx playwright test --ui
 This command will launch the Playwright test user interface where you can run and manage your tests.
 
 
-## How to submit a PR
-1. Clone the main [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project) repository. 
-2. Navigate to `e2e-tests/` (or click [here](https://github.com/Sefaria/Sefaria-Project/tree/master/e2e-tests)).
-3. Write your tests with the testing framework running (you can see the instructions for running the framework above ☝️)
-4. Once you feel confident that your tests are ready for review, submit your PR. Make sure you link the issue from this tracking repository to the PR so we can keep track of your efforts.
+## Contributing
+### Fork the Repository
+1. Go to the [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project) repository on GitHub.
+2. Click the "Fork" button at the top right of the page. This will create a copy of the repository in your GitHub account.
+### Clone Your Fork
+Once you've forked the repository, clone your fork to your local machine:
+```bash
+git clone https://github.com/your-username/Sefaria-Project.git
+```
+Replace `your-username` with your GitHub username.
+### Create a Branch
+Before making any changes, create a new branch for your work:
+```bash
+git checkout -b your-branch-name
+```
+Replace `your-branch-name` with a descriptive name for your branch.
+### Make Your Changes
+Make the necessary changes to the codebase and commit them:
+```bash
+git add .
+git commit -m "Description of your changes"
+```
+### Push Your Changes
+Push your changes to your forked repository:
+```bash
+git push origin your-branch-name
+```
+### Create a Pull Request
+1. Go to your forked repository on GitHub.
+2. Click the "Compare & pull request" button.
+3. Ensure the base repository is `Sefaria/Sefaria-Project` and the base branch is `master`.
+4. Fill in the title and description for your pull request. **Make sure to include a reference to the relevant GitHub issue from _this_ repo by using `Fixes #issue_number` or `Closes #issue_number` in the description.** This will automatically link your pull request to the issue.
 
+   
 Questions? We're here to help. Feel free to reach out at developers@sefaria.org anytime. 
 
 ---
