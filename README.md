@@ -1,11 +1,9 @@
 # Sefaria Playwright Tests
-Welcome! We're so grateful you're considering contributing to Sefaria's test coverage. We are so grateful for our enthusiastic community of developers. 
+Welcome! We're so grateful you're considering contributing to Sefaria's test coverage. We are so appreciative for our enthusiastic community of developers. 
 
 Playwright tests bulletproof Sefaria from bugs. They are easy to contribute and make our digital library more resilient. This repo uses issues and projects to manage volunteer contributions to tests. All pull requests will need to be to the main [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project) repository. 
 
 Questions? Contact us at developers@sefaria.org
-
----
 
 ## Getting Started
 
@@ -36,6 +34,15 @@ npx playwright test --ui
 ```
 
 This command will launch the Playwright test user interface where you can run and manage your tests.
+
+
+## How to submit a PR
+1. Clone the main [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project) repository. 
+2. Navigate to `e2e-tests/` (or click [here](https://github.com/Sefaria/Sefaria-Project/tree/master/e2e-tests)).
+3. Write your tests with the testing framework running (instructions for that are ☝️)
+4. Once you feel confident that your tests are complete, submit your PR. Make sure you link the issue from this tracking repository to the PR so we can keep track of your efforts.
+
+Questions? We're here to help. Feel free to reach out at developers@sefaria.org anytime. 
 
 ---
 
