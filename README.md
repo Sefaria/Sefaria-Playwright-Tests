@@ -39,8 +39,8 @@ This command will launch the Playwright test user interface where you can run an
 ## How to submit a PR
 1. Clone the main [Sefaria-Project](https://github.com/Sefaria/Sefaria-Project) repository. 
 2. Navigate to `e2e-tests/` (or click [here](https://github.com/Sefaria/Sefaria-Project/tree/master/e2e-tests)).
-3. Write your tests with the testing framework running (instructions for that are ☝️)
-4. Once you feel confident that your tests are complete, submit your PR. Make sure you link the issue from this tracking repository to the PR so we can keep track of your efforts.
+3. Write your tests with the testing framework running (you can see the instructions for running the framework above ☝️)
+4. Once you feel confident that your tests are ready for review, submit your PR. Make sure you link the issue from this tracking repository to the PR so we can keep track of your efforts.
 
 Questions? We're here to help. Feel free to reach out at developers@sefaria.org anytime. 
 
